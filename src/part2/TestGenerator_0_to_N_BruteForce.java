@@ -2,6 +2,11 @@ package part2;
 
 import java.util.Random;
 
+/**
+ * Takes inputs in order to generate values for the knapsack
+ * @author James Sutton
+ *
+ */
 public class TestGenerator_0_to_N_BruteForce {
 
 	public static void main(String[] args){

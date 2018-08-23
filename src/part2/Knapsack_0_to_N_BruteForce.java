@@ -2,6 +2,11 @@ package part2;
 
 import java.util.Arrays;
 
+/**
+ * Brute Force Algorithm to solve a 0-N Knapsack Problem
+ * @author James Sutton
+ *
+ */
 public class Knapsack_0_to_N_BruteForce {
 
 	private static int[] weights;
@@ -50,6 +55,9 @@ public class Knapsack_0_to_N_BruteForce {
 		System.out.println("\nTotal execution time: " + (endTime - startTime) + "ms");
 	}
 
+	/**
+	 * Brute force knapsack choices calculation
+	 */
 	private static void knapsack() {
 		
 		int maxValue = 0;
@@ -62,7 +70,7 @@ public class Knapsack_0_to_N_BruteForce {
 		for(int i = 1; i < groupsize.length; i++){
 			combinations *= groupsize[i]+1;
 		}
-		//System.out.println("START");
+
 		int j = 0;
 		while(j < combinations-1){
 			boolean iter = false;
