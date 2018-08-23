@@ -2,7 +2,7 @@
 
 ## How to run
 
-To run use the TestGenerator_0_to_1_BruteForce class main method (recommended).
+To run use the TestGenerator_0_to_N_BruteForce class main method (recommended).
 This randomly generates weights, values and groupsizes within given ranges.
 This takes 5 command line arguments:
 1.	number of objects in knapsack (int) e.g. 10
@@ -11,7 +11,7 @@ This takes 5 command line arguments:
 4.	groupsize range, comma separated min and max values (int,int) e.g. 1,10
 5.	weight limit of knapsack (int) e.g. 100
 
-Alternatively the main method in the Knapsack_0_to_1_BruteForce class can be used to specify the weight and value of each object
+Alternatively the main method in the Knapsack_0_to_N_BruteForce class can be used to specify the weight and value of each object
 This takes 4 command line arguments:
 1.	comma separated weights (int) e.g. 3,4,5,6,7
 2.	comma separared values (int) e.g. 7,6,5,4,3
